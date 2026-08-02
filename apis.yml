@@ -1,7 +1,30 @@
 aid: zwitterco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zwitterco.png
 name: Zwitterco
-description: Zwitterco is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ZwitterCo is an advanced water treatment company that manufactures filtration
+  membranes based on zwitterionic chemistry, a surface science that makes
+  membranes attract water rather than organic compounds and thereby resist the
+  organic fouling that limits conventional membranes. Its product families
+  target food and dairy processing (Evolution membranes for whey and milk
+  concentration), industrial and municipal wastewater (Elevation membranes for
+  landfill leachate, refinery streams, and produced water), and extreme
+  high-fouling waste streams (Expedition superfiltration). ZwitterCo is a DCVC
+  portfolio company. It sells physical membrane hardware and treatment systems
+  through direct sales and does not currently publish any public developer
+  portal, API, SDKs, or machine-readable interface; this profile is a company
+  record in the API Evangelist network rather than an API producer.
 url: https://raw.githubusercontent.com/api-evangelist/zwitterco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Water Treatment
+- Membranes
+- Filtration
+- Cleantech
+- Industrial
+- Wastewater
+- Food and Dairy
 apis: []
+common:
+- type: Website
+  url: https://zwitterco.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
