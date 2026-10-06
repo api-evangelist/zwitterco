@@ -45,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Water Treatment
@@ -57,6 +57,10 @@ tags:
 - Food and Dairy
 apis: []
 common:
+- url: https://zwitterco.com/blog/
+  type: Blog
+- url: https://zwitterco.com/feed/
+  type: BlogRSS
 - type: Website
   url: https://zwitterco.com
 maintainers:
